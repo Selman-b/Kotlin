@@ -34,9 +34,9 @@ fun main(){
         println(i)
     }
 //-----------LISTELER-----ARRAYLIST----------
-    val isimListesi = arrayListOf("selman","beyza","coki","fislama")
+    val isimListesi = arrayListOf("selman","beyza","coki","merhaba")
     println(isimListesi.size)
-    isimListesi.add("lokumpsy")
+    isimListesi.add("nasilsiniz")
     println(isimListesi.get(3))
     isimListesi.removeAt(0)//removeAt ile hem index hem eleman cıkarabilirsin
     isimListesi.remove("coki")//remove ile sadece eleman cıkarabilirsn
